@@ -2,7 +2,7 @@ The codes for the "Heterogeneous Reinforcement Learning for Defending Power Grid
 
 ## TLDR;
 
-1. install the "environment.yml" environment.
+1. Install the "environment.yml" environment (Tested in Windows).
 2. For training an RL agent in a power grid, run `rev_***method***_***condition***_***grid_name***.py` files. For example, for training a deep Q agent under attack condition in IEEE-118 run the `rev_deepQ_attack_118.py` file. Your model and logs will be saved. 
 3. To inspect your saved logs, run `rev_tensorboard.py` file.
 4. To evaluate your agent, use 'rev_***method***_eval.py` file.
