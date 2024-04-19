@@ -53,7 +53,8 @@ In order to successfully implement the TGCN analyzer in a power grid reinforceme
 - `pandas==1.5.3`: This package is used for data manipulation and analysis, which is essential for preprocessing data for use with the TGCN model.
 - `scipy==1.10.1`: This package is used for scientific computing and is required for working with power grid simulation data.
 - `tqdm==4.65.0`: This package provides a progress bar for iterative processes and is useful for monitoring the progress of model training and evaluation.
-
+- `numba==0.56.4`: This package is a just-in-time compiler for Python that translates Python functions into optimized machine code at runtime, resulting in significant speedup for numerical computations and other performance-critical tasks.
+- `stable-baselines3==2.2.1`: This package is a set of high-quality implementations of reinforcement learning algorithms in Python, built on top of the PyTorch deep learning framework. It provides a user-friendly interface for training and evaluating reinforcement learning agents, making it easier for researchers and practitioners to experiment with and deploy RL algorithms in various applications.
 
 By installing these packages and dependencies, you will have the necessary tools and frameworks to work with power grid simulation data and to train and evaluate the TGCN model.
 
