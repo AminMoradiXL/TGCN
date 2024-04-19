@@ -1,9 +1,13 @@
-The codes for the "Heterogeneous Reinforcement Learning for Defending Power Grids Against Attacks" paper submitted to APML journal
+The codes for the "Heterogeneous Reinforcement Learning for Defending Power Grids Against Attacks" paper submitted to APML journal. Create an Issue if you have a problem running the code.
 
 ## TLDR;
 
 1. install the "environment.yml" environment.
-2. Run "grid_main.py"
+2. For training an RL agent in a power grid, run `rev_***method***_***condition***_***grid_name***.py` files. For example, for training a deep Q agent under attack condition in IEEE-118 run the `rev_deepQ_attack_118.py` file. Your model and logs will be saved. 
+3. To inspect your saved logs, run `rev_tensorboard.py` file.
+4. To evaluate your agent, use 'rev_***method***_eval.py` file.
+5. To create .csv timeseries from your evaluations use `rev_extract_to_CSV.py` file.
+6. To train your TGCN model based on the created timeseries use `grid_main.py`
 
 ## Long version guide
 
